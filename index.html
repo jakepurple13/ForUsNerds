@@ -1,0 +1,132 @@
+<html>
+
+<head>
+
+    <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script src="androidstuff.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script lang="javascript">
+        console.log("a;dsklfj");
+
+        var fileToUse = 'updated1.json';
+
+        $(function () {
+
+            $.getJSON( fileToUse, function( data ) {
+                document.getElementById("version_num").value = data.version;
+                document.getElementById("devnote").placeholder = data.devNotes;
+            });
+
+            //document.getElementById("version_num").value = JSON.parse()
+
+            $('#upload_file').on('click', function (e) {
+                //window.location = '/androidfun/app-debug.apk';
+                $.getJSON( fileToUse, function( data ) {
+                var items = [];
+                $.each( data, function( key, val ) {
+                    //items.push( "<li id='" + key + "'>" + val + "</li>" );
+                    console.log(key + " and " + val)
+                });
+                });
+            })
+
+            $('#generate_json').on('click', function (e) {
+
+                //your awesome code here
+                var dict = {
+                    "version": parseFloat(document.getElementById("version_num").value),
+                    "link": "http://forusnerds.unaux.com/app-debug.apk",
+                    "devNotes": document.getElementById("devnote").value
+                };
+
+                var dictstring = JSON.stringify(dict);
+
+                //sendStuff(dictstring)
+
+                console.log(dictstring);
+
+                var dicted = JSON.parse(dictstring);
+
+                console.log(dicted);
+
+                console.log(typeof(dictstring));
+
+
+                // // hope the server sets Content-Disposition: attachment!
+                $.ajax({
+                    url: "update.php",
+                    method: "post",
+                    //contentType: "application/json; charset=utf-8",
+                    //dataType: "json",
+                    data: {
+                        "data": dictstring,
+                        "fileToUse": fileToUse
+                    },
+                    success: function (response) {
+                        // .. do something
+                        console.log(response)
+                        $.getJSON( fileToUse, function( data ) {
+                            console.log(data)
+                            $.each( data, function( key, val ) {
+                                //items.push( "<li id='" + key + "'>" + val + "</li>" );
+                                console.log(key + " and " + val)
+                            });
+                        });
+                        console.log("Yup")
+                    },
+                    error: function (jqXHR, textStatus, errorMessage) {
+                        console.log(errorMessage); // Optional
+                        console.log("nope")
+                    }
+                });
+
+            })
+
+        });
+    </script>
+
+</head>
+
+<form>
+    <div>
+        <button type="button" id="upload_file" class="btn btn-primary btn-lg">Upload File</button>
+        <label for="exampleFormControlTextarea1" id="file_location">File Location</label>
+    </div>
+    <div>
+        <label for="exampleFormControlTextarea1">Version Number</label>
+        <input class="form-control" type="text" id="version_num" placeholder="Default input">
+    </div>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Developer Notes</label>
+        <textarea class="form-control" id="devnote" rows="3"></textarea>
+    </div>
+    <div>
+        <button type="button" id="generate_json" class="btn btn-primary btn-lg">Generate</button>
+    </div>
+</form>
+
+<!-- <a href="/app-debug.apk" download>Hello</a> -->
+
+<form method="get" action="app-debug.apk">
+    <button type="submit">THIS ONE WORKS!!!</button>
+</form>
+
+<!-- <a href="ftp://webpage.pace.edu/androidfun/app-debug.apk" download="app-debug.apk">Save "Bad Romance" to your computer</a>
+<hr>
+<a href="http://webpage.pace.edu/jr83987p/androidfun/updated.json" download>Hello 2</a>
+<hr>
+<a href="http://webpage.pace.edu/jr83987p/androidfun/app-debug.png" download>Hello 3</a> -->
+
+</html>
