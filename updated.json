@@ -1,5 +1,5 @@
 {
     "version": 6.1,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-added a list of all favorite shows\n-added batch downloads\n-bug fixes and code cleanup\n-completely using a new server now"
+    "devNotes": "-added a list of all favorite shows\n-added 10 random favorites to home screen\n-added batch downloads\n-bug fixes and code cleanup\n-completely using a new server now"
 }
