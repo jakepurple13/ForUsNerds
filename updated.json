@@ -1,5 +1,5 @@
 {
-    "version": 6.1,
+    "version": 6.2,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-added a list of all favorite shows\n-added 10 random favorites to the home screen\n-added batch downloads\n-bug fixes and code cleanup\n-completely using a new server now"
+    "devNotes": "-added customizable shows to display on the home screen\n-added settings to display a number of random favorites on home screen\n-fixed watched episode list being so wonky\n-added index bar when looking at shows\n-added multi-delete from view downloads\n-modified home screen title text a bit"
 }
