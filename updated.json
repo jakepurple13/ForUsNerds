@@ -1,5 +1,5 @@
 {
-    "version": 6.2,
+    "version": 6.3,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-added customizable shows to display on the home screen\n-added settings to display a number of random favorites on home screen\n-fixed watched episode list being so wonky\n-added index bar when looking at shows\n-added multi-delete from view downloads\n-modified home screen title text a bit"
+    "devNotes": "-added a time for when anime came out. It is not working for when they will come out, only once they come out. (Source is Livechart.me)\n-added import and export for favorites!\n-added sharing"
 }
