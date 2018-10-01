@@ -1,5 +1,5 @@
 {
-    "version": 6.4,
+    "version": 6.5,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-fixed a weird scrolling issue in schedule\n-added going back to home screen when going to show from a link\n-made share better, able to choose more options\n-made firebase notifications bigger so you guys can see more if there's an urgent message or if you want to see what was updated\n-made it so that when you go to downloads from notification and press back, it'll take you to the home screen\n-made it so that there is only one task (If you don't understand that's fine. Basically, bug fix)\n-bug fixes (Duh)\n-added feedback area so all of you guys can give me feedback! Even suggesting your own future features!"
+    "devNotes": "-bug fixes (I mean...We all saw this one coming)\n-changed hearts to stars\n-fixed some favoriting issues\n-made a better schedule reader\n-fixed app not downloading all parts to a movie"
 }
