@@ -1,5 +1,5 @@
 {
     "version": 6.8,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-new peek and pop like action when wanting to preview a show\n-ALL NOTIFICATIONS SHOULD WORK NOW! (I hope. Send feedback if one isn't working\n-added favorite count\n-added side drawer\n-added export and import finishing toast\n-changed star to checkbox to decide which shows you want to be shown on the homescreen"
+    "devNotes": "-new peek and pop like action when wanting to preview a show\n-ALL NOTIFICATIONS SHOULD WORK NOW! (I hope. Send feedback if one isn't working)\n-added favorite count\n-added side drawer\n-added export and import finishing toast\n-changed star to checkbox to decide which shows you want to be shown on the homescreen"
 }
