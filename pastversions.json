@@ -1,5 +1,11 @@
 {
-    "versions": [{
+    "versions": [
+        {
+            "version": 6.9,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-added three new items to the side bar (Favorite Count, App Version, Download Count)\n-made peek and pop work on more than just one part. You can press and hold the text now to get it\n-added past version notes\n-added header to side bar so you guys know what FUN stands for and so you always know what version of the app you are on\n-fixed a small bug with viewing some shows"
+        },
+        {
             "version": 6.8,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-new peek and pop like action when wanting to preview a show\n-ALL NOTIFICATIONS SHOULD WORK NOW! (I hope. Send feedback if one isn't working)\n-added favorite count\n-added side drawer\n-added export and import finishing toast\n-changed star to checkbox to decide which shows you want to be shown on the homescreen"
