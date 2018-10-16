@@ -1,0 +1,23 @@
+{
+    "versions": [{
+            "version": 6.8,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-new peek and pop like action when wanting to preview a show\n-ALL NOTIFICATIONS SHOULD WORK NOW! (I hope. Send feedback if one isn't working)\n-added favorite count\n-added side drawer\n-added export and import finishing toast\n-changed star to checkbox to decide which shows you want to be shown on the homescreen"
+        },
+        {
+            "version": 6.7,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-bug fixes\n-added a cheat like mode to video poker\n-added more high score stuff to solitaire\n-added something new to download a video (It is an option that can be turned on and off in the settings)\n"
+        },
+        {
+            "version": 6.6,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-bug fixes\n-added a dialog to schedule so we can actually see the entire description\n-cleaning up schedule\n-fixed checking episode when show is not favorited bug\n-high score to solitaire (I dont care what you guys say. I play solitaire!)\n-added a new delete dialog (let me know if you guys like it)\n-made some things cleaner and smoother when going from activity to activity\n-new fancy effects when going to a new activity"
+        },
+        {
+            "version": 6.5,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-bug fixes (I mean...We all saw this one coming)\n-changed hearts to stars\n-fixed some favoriting issues\n-made a better schedule reader\n-fixed app not downloading all parts to a movie"
+        }
+    ]
+}
