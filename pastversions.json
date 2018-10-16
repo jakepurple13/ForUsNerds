@@ -18,6 +18,26 @@
             "version": 6.5,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-bug fixes (I mean...We all saw this one coming)\n-changed hearts to stars\n-fixed some favoriting issues\n-made a better schedule reader\n-fixed app not downloading all parts to a movie"
+        },
+        {
+            "version": 6.4,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-fixed a weird scrolling issue in schedule\n-added going back to home screen when going to show from a link\n-made share better, able to choose more options\n-made firebase notifications bigger so you guys can see more if there's an urgent message or if you want to see what was updated\n-made it so that when you go to downloads from notification and press back, it'll take you to the home screen\n-made it so that there is only one task (If you don't understand that's fine. Basically, bug fix)\n-bug fixes (Duh)\n-added feedback area so all of you guys can give me feedback! Even suggesting your own future features!"
+        },
+        {
+            "version": 6.3,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-added a time for when anime came out. It is not working for when they will come out, only once they come out. (Source is Livechart.me)\n-added import and export for favorites!\n-added sharing"
+        },
+        {
+            "version": 6.2,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-added customizable shows to display on the home screen\n-added settings to display a number of random favorites on home screen\n-fixed watched episode list being so wonky\n-added index bar when looking at shows\n-added multi-delete from view downloads\n-modified home screen title text a bit"
+        },
+        {
+            "version": 6.1,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-added a list of all favorite shows\n-added 10 random favorites to the home screen\n-added batch downloads\n-bug fixes and code cleanup\n-completely using a new server now"
         }
     ]
 }
