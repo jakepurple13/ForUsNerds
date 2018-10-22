@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": 7.0,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-HUGE code clean up and change. Changed how some things worked together for easier access on my side\n-added new option to manually check for show updates on home screen\n-modified how update checking works and is now MUCH more efficient\n-added video launcher!\n-added built in video player (You can still use your own if you would like. It is an option)\n"
+        },
+        {
             "version": 6.9,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-added three new items to the side bar (Favorite Count, App Version, Download Count)\n-made peek and pop work on more than just one part. You can press and hold the text now to get it\n-added past version notes\n-added header to side bar so you guys know what FUN stands for and so you always know what version of the app you are on\n-fixed a small bug with viewing some shows"
