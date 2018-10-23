@@ -1,5 +1,5 @@
 {
-    "version": 7.0,
+    "version": 7.1,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-HUGE code clean up and change. Changed how some things worked together for easier access on my side\n-added new option to manually check for show updates on home screen\n-modified how update checking works and is now MUCH more efficient\n-added video launcher!\n-added built in video player (You can still use your own if you would like. It is an option)\n"
+    "devNotes": "-added delete from viewing the videos\n-added new activity to deal with opening videos from notification\n-modified delete dialog to work with files too\n-fixed text on video player buttons\n-made video viewer runtime text background black"
 }
