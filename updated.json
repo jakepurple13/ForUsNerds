@@ -1,5 +1,5 @@
 {
-    "version": 7.2,
+    "version": 7.3,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-made deleting videos nicer\n-added multi video delete\n-made video thumbnails the same size\n-modified some database interactivity\n-fixed refresh adding bug in episodes\n-added a refresh to the video viewer\n-fixed notificatoin update bug not showing the list\n-added a badge to view downloads option when something is done downloading\n-adding shortcuts\n-new video player. This one is MUCH better\n"
+    "devNotes": "-added a new shortcut to get to the videos\n-added double tap to play and pause video\n-changed some video colors\n-made video ui fade out\n-added picture in picture mode\n-added cartoon covers\n-removed solitaire shortcut and changed it to view downloads\n-added time save to video player (A.K.A. when you leave a video, your current position will be save for when you return)\n-added seek time, how much you are going forward or backwards in video player\n-lock button for video that will lock all controls until you press the button\n"
 }
