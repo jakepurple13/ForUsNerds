@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": 7.4,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-added fade out for lock dialog\n-fixed a bug for newcomers with shortcuts and no security\n-added widget so you can see current downloads on your homescreen!\n"
+        },
+        {
             "version": 7.3,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-added a new shortcut to get to the videos\n-added double tap to play and pause video\n-changed some video colors\n-made video ui fade out\n-added picture in picture mode\n-added cartoon covers\n-removed solitaire shortcut and changed it to view downloads\n-added time save to video player (A.K.A. when you leave a video, your current position will be save for when you return)\n-added seek time, how much you are going forward or backwards in video player\n-lock button for video that will lock all controls until you press the button\n"
