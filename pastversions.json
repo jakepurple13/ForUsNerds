@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": 7.5,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-updated Fetch!\n-added time of videos that have been played\n-added swipe to cancel for view downloads\n-added play/pause indicator to widget and able to play and pause download on widget\n-added a clear notifications item to the side drawer\n-changed minimum widget size to 2x2\n-better notifications\n"
+        },
+        {
             "version": 7.4,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-added fade out for lock dialog\n-fixed a bug for newcomers with shortcuts and no security\n-added widget so you can see current downloads on your homescreen!\n"
