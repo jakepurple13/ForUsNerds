@@ -3,7 +3,7 @@
         {
             "version": 7.5,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-            "devNotes": "-updated Fetch!\n-added time of videos that have been played\n-added swipe to cancel for view downloads\n-added play/pause indicator to widget and able to play and pause download on widget\n-added a clear notifications item to the side drawer\n-changed minimum widget size to 2x2\n-better notifications\n"
+            "devNotes": "-updated Fetch!\n-added time of videos that have been played\n-added swipe to cancel for view downloads\n-added play/pause indicator to widget and able to play and pause download on widget\n-added a clear notifications item to the side drawer\n-changed minimum widget size to 2x2\n-better notifications\n-(in 7.51) made a little mistake with notifications\n"
         },
         {
             "version": 7.4,
