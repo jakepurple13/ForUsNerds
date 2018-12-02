@@ -1,5 +1,5 @@
 {
-    "version": 7.51,
+    "version": 7.6,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-made a little mistake with notifications"
+    "devNotes": "-added awesome animation called shared elements\n-removed transition animation from episode activity\n-fixed solitaire win animation not doing it correctly\n-fixed show check service being all weird\n-fixed little bug when favoriting a show and returning to the list and the star isn't starred\n-added notification for when app is checking for updates\n-made badge go away when in recent and not when clicking the recent on app home screen\n-added a notification to show when show check finishes\n-added checks if device is offline\n-added next time for update checking\n-update checkes will start either on the hour or on the half hour\n-added setting to turn notifications on or off\n-added a quick tile for update checks\n-changed blackjack so that you can see all cards you and the dealer has\n-added some wifi settings\n"
 }
