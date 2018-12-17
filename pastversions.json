@@ -1,9 +1,14 @@
 {
     "versions": [
         {
+            "version": 7.8,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-fixed video view refresh bug\n-added loading dialog\n-modified checking notification to show progress\n-added a new update time picker (It looks beautiful!)"
+        },
+        {
             "version": 7.7,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-            "devNotes": "-after 5000ms (5 seconds) of being paused, notification will be dismissed\n-grouping more notifications (finished and currently downloading)\n-fixed delete video bug\n-fixed favorites checkign being weird\n-fixed peek and pop not working for favorites\n-hopefully fixed episode watch list from being stupid\n- (7.71) Forgot to show something!"
+            "devNotes": "-after 5000ms (5 seconds) of being paused, notification will be dismissed\n-grouping more notifications (finished and currently downloading)\n-fixed delete video bug\n-fixed favorites checking being weird\n-fixed peek and pop not working for favorites\n-hopefully fixed episode watch list from being stupid\n- (7.71) Forgot to show something!"
         },
         {
             "version": 7.6,

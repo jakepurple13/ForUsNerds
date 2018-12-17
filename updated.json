@@ -1,5 +1,5 @@
 {
-    "version": 7.71,
+    "version": 7.8,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-forgot to show something!"
+    "devNotes": "-fixed video view refresh bug\n-added loading dialog\n-modified checking notification to show progress\n-added a new update time picker (It looks beautiful!)"
 }
