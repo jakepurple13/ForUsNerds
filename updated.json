@@ -1,5 +1,5 @@
 {
-    "version": 7.8,
+    "version": 7.9,
     "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
-    "devNotes": "-fixed video view refresh bug\n-added loading dialog\n-modified checking notification to show progress\n-added a new update time picker (It looks beautiful!)"
+    "devNotes": "-added play again button for yahtzee\n-fixed anime! Everything should be working now! WOOHOO!\n-Sorry for the wait for those who use the app as much as I do. It has been rough figuring out how to fix this issue."
 }
