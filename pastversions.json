@@ -1,6 +1,11 @@
 {
     "versions": [
         {
+            "version": 8.01,
+            "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
+            "devNotes": "-fixed issue with update checks not completely working\n-added name of show to update check\n-got rid of episode refreshing\n-fixed batch downloads\n-made a change to video times. Hours now will show up separately instead of a large amount of minutes"
+        },
+        {
             "version": 7.9,
             "link": "https://github.com/jakepurple13/ForUsNerds/raw/master/app-debug.apk",
             "devNotes": "-added play again button for yahtzee\n-fixed anime! Everything should be working now! WOOHOO!\n-Sorry for the wait for those who use the app as much as I do. It has been rough figuring out how to fix this issue."
